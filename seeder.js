@@ -30,9 +30,8 @@ const seed = async () => {
       userId: users[Math.floor(Math.random() * users.length)]._id,
     });
   }
-
   console.log('Database seeded');
   process.exit();
 };
 
-seed();
+seed(); // For changes
